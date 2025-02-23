@@ -30,13 +30,13 @@ system_dir='Acorn - BBC Micro'
 # See shortcuts below for correct folder names
 
 # ---- CONFIGURE these once if needed --------
-src_dir='/home/'"$USER"'/.config/retroarch/screenshots'					# Default
+src_dir='/home/'"$USER"'/.config/retroarch/screenshots'			# Default
 dest_dir='/home/'"$USER"'/.config/retroarch/thumbnails/'"${system_dir}"	# Default
 
 do_backup=1																# 0 = do not create backup duplicate
-backup_dir='/mnt/9dfc4c69-a0b6-4668-b905-131459450269/WIP'				# My SSD
+backup_dir='/mnt/9dfc4c69-a0b6-4668-b905-131459450269/WIP'		# My SSD
 # Existing thumbnails do not back up. They are overwritten.
-# Backup puts a copy outside thumbnails so you can upload them later
+# Backup puts a copy of NEW thumbnails so you can upload them later
 # So you do not lose them in the thumbnails pile
 # this can be disabled if you do not intend to upload later
 # or have no interest is seperating your shots from existing thumbnails
