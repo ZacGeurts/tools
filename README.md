@@ -13,7 +13,7 @@ I do not condone violence, piracy, or new Oxford commas.
 http://github.com/ZacGeurts
 
 This is not for a games database.
-This is for thumbnail archival tools.
+This is for Retroarch thumbnail archival tools.
 
 Use the PS or XBox button or F1 for the menu, or customize in settings.
 Scroll lock activates normal keyboard and mouse mode when using emulators with keyboard support.
