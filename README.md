@@ -14,6 +14,7 @@ http://github.com/ZacGeurts
 
 This is not for a games database.
 This is for Retroarch thumbnail archival tools.
+shots.sh is the most interesting one and lets you use F8 to instant thumbnail.
 
 Use the PS or XBox button or F1 for the menu, or customize in settings.
 Scroll lock activates normal keyboard and mouse mode when using emulators with keyboard support.
