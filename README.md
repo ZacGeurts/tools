@@ -9,6 +9,9 @@ Might eat your computer, probably not.<BR />
 If you can not read a script leave these alone.<BR />
 <BR />
 Fun with Grok 3.<BR />
+The arculator github is far out of date get the latest one from
+https://b-em.bbcmicro.com/arculator/download.html
+or try ArcEm https://arcem.sourceforge.net/
 <a href="https://zacgeurts.github.io/tools/Port%20libretro%20howto.html">Port to libretro core Howto</a><BR />
 <a href="https://zacgeurts.github.io/tools/Port%20libretro%20howto%202.html">Port to libretro core Howto 2</a><BR />
 <BR />
