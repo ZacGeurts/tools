@@ -2,14 +2,14 @@
 Personal tools<BR />
 Consider everything here as WIP.<BR />
 <BR />
-Fun with Grok 3.<BR />
-<a href="https://zacgeurts.github.io/tools/Port%20libretro%20howto.html">Port to libretro core Howto</a><BR />
-<a href="https://zacgeurts.github.io/tools/Port%20libretro%20howto%202.html">Port to libretro core Howto 2</a><BR />
-<BR />
 Do not use these. Never use these.<BR />
 Might work for you, probably not.<BR />
 Might eat your computer, probably not.<BR />
 If you can not read a script leave these alone.<BR />
+<BR />
+Fun with Grok 3.<BR />
+<a href="https://zacgeurts.github.io/tools/Port%20libretro%20howto.html">Port to libretro core Howto</a><BR />
+<a href="https://zacgeurts.github.io/tools/Port%20libretro%20howto%202.html">Port to libretro core Howto 2</a><BR />
 <BR />
 By Zachary Geurts<BR />
 Michigan, USA<BR />
