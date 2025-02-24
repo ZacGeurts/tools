@@ -16,8 +16,8 @@ http://github.com/ZacGeurts<BR />
 <BR />
 This is not for a games database.<BR />
 This is for Retroarch thumbnail archival tools.<BR />
-shots.sh is the most interesting one and lets you use F8 to instant thumbnail.<BR />
 <BR />
+shots.sh is the most interesting one and lets you use F8 to instant thumbnail.<BR />
 Turn off GPU screenshot so you do not capture any overlays like pause icon.<BR />
 Use the PS or XBox button or F1 for the menu, or customize in settings.<BR />
 You can screenshot in the menu or just use F8.<BR />
