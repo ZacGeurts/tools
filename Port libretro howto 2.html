@@ -33,8 +33,8 @@ build this from scratch!</font></p>
 you start, install these on your Linux system (Ubuntu/Debian
 example):</font></p>
 <p style="line-height: 100%; margin-bottom: 0.2in"><font color="#000000">bash</font></p>
-<pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">sudo apt update</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">sudo apt install -y git gcc g++ make libretro-core-info retroarch</font></font></font></code></pre>
+<pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">sudo apt update</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">sudo apt install -y git gcc g++ make libretro-core-info retroarch</font></font></font></code></pre>
 <ul>
 	<li><p style="margin-bottom: 0in"><font color="#000000"><font face="TwitterChirp, System">Git:
 	To clone repositories.</font></font></p></li>
@@ -53,7 +53,7 @@ example):</font></p>
 </ul>
 <p style="margin-bottom: 0in"><font color="#000000">Verify Retroarch:</font></p>
 <p><font color="#000000">bash</font></p>
-<pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">retroarch --version  # Should show 1.19 or higher</font></font></font></code></pre><p>
+<pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">retroarch --version  # Should show 1.19 or higher</font></font></font></code></pre><p>
 <font color="#000000">Step 1: Set Up Your Workspace</font></p>
 <ol>
 	<li><p style="margin-bottom: 0in"><font color="#000000"><font face="TwitterChirp, System">Create
@@ -61,17 +61,17 @@ example):</font></p>
 	<p style="margin-bottom: 0in"><font color="#000000"><font face="TwitterChirp, System">bash</font></font></p></li>
 </ol>
 <ul>
-	<li><pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">mkdir ~/arculator-libretro</font></font></font></code></pre></li>
+	<li><pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">mkdir ~/arculator-libretro</font></font></font></code></pre></li>
 </ul>
-<pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">cd ~/arculator-libretro</font></font></font></code></pre>
+<pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">cd ~/arculator-libretro</font></font></font></code></pre>
 <ul>
 	<li><p style="margin-bottom: 0in"><font color="#000000">Clone the
 	Arculator source:</font></p></li>
 </ul>
 <p><font color="#000000">bash</font></p>
 <ol>
-	<li value="2"><pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">git clone https://github.com/dboddie/arculator.git</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">cd arculator</font></font></font></code></pre></li>
+	<li value="2"><pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">git clone https://github.com/dboddie/arculator.git</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">cd arculator</font></font></font></code></pre></li>
 </ol>
 <p style="margin-bottom: 0in"><font color="#000000">Step 2:
 Understand Arculator’s Structure</font></p>
@@ -98,87 +98,87 @@ SDL with Libretro callbacks and adapt the build.</font></p>
 	<p style="margin-bottom: 0in"><font color="#000000"><font face="TwitterChirp, System">bash</font></font></p></li>
 </ol>
 <ul>
-	<li><pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">wget https://raw.githubusercontent.com/libretro/RetroArch/master/libretro-common/include/libretro.h</font></font></font></code></pre></li>
+	<li><pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">wget https://raw.githubusercontent.com/libretro/RetroArch/master/libretro-common/include/libretro.h</font></font></font></code></pre></li>
 </ul>
-<pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">mkdir -p include</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">mv libretro.h include/</font></font></font></code></pre>
+<pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">mkdir -p include</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">mv libretro.h include/</font></font></font></code></pre>
 <ul>
 	<li><p style="margin-bottom: 0in"><font color="#000000">Create
 	libretro.c: In arculator/, create libretro.c with this content:</font></p></li>
 </ul>
 <p><font color="#000000">c</font></p>
 <ol>
-	<li value="2"><pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">#include &quot;libretro.h&quot;</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">#include &quot;arm.h&quot;</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">#include &quot;video.h&quot;</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">#include &quot;sound.h&quot;</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">#include &quot;keyboard.h&quot;</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">#include &quot;disc.h&quot;</font></font></font></code>
+	<li value="2"><pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">#include &quot;libretro.h&quot;</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">#include &quot;arm.h&quot;</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">#include &quot;video.h&quot;</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">#include &quot;sound.h&quot;</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">#include &quot;keyboard.h&quot;</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">#include &quot;disc.h&quot;</font></font></font></code>
 
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">static retro_video_refresh_t video_cb;</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">static retro_audio_sample_batch_t audio_cb;</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">static retro_input_poll_t input_poll_cb;</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">static retro_input_state_t input_state_cb;</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">static retro_environment_t environ_cb;</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">static retro_video_refresh_t video_cb;</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">static retro_audio_sample_batch_t audio_cb;</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">static retro_input_poll_t input_poll_cb;</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">static retro_input_state_t input_state_cb;</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">static retro_environment_t environ_cb;</font></font></font></code>
 
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_set_environment(retro_environment_t cb) { environ_cb = cb; }</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_set_video_refresh(retro_video_refresh_t cb) { video_cb = cb; }</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_set_audio_sample(retro_audio_sample_t cb) { (void)cb; }</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_set_audio_sample_batch(retro_audio_sample_batch_t cb) { audio_cb = cb; }</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_set_input_poll(retro_input_poll_t cb) { input_poll_cb = cb; }</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_set_input_state(retro_input_state_t cb) { input_state_cb = cb; }</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_set_environment(retro_environment_t cb) { environ_cb = cb; }</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_set_video_refresh(retro_video_refresh_t cb) { video_cb = cb; }</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_set_audio_sample(retro_audio_sample_t cb) { (void)cb; }</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_set_audio_sample_batch(retro_audio_sample_batch_t cb) { audio_cb = cb; }</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_set_input_poll(retro_input_poll_t cb) { input_poll_cb = cb; }</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_set_input_state(retro_input_state_t cb) { input_state_cb = cb; }</font></font></font></code>
 
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_init(void) {</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">initmem();</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">resetarm();</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">resetvideo();</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">initsound();</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">}</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_init(void) {</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">initmem();</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">resetarm();</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">resetvideo();</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">initsound();</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">}</font></font></font></code>
 
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_deinit(void) {</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">endvid();</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">}</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_deinit(void) {</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">endvid();</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">}</font></font></font></code>
 
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">unsigned retro_api_version(void) { return RETRO_API_VERSION; }</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">unsigned retro_api_version(void) { return RETRO_API_VERSION; }</font></font></font></code>
 
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_get_system_info(struct retro_system_info *info) {</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">memset(info, 0, sizeof(*info));</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">info-&gt;library_name = &quot;Arculator&quot;;</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">info-&gt;library_version = &quot;2.2&quot;;</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">info-&gt;need_fullpath = true;</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">info-&gt;valid_extensions = &quot;adf|fdi&quot;;</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">}</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_get_system_info(struct retro_system_info *info) {</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">memset(info, 0, sizeof(*info));</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">info-&gt;library_name = &quot;Arculator&quot;;</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">info-&gt;library_version = &quot;2.2&quot;;</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">info-&gt;need_fullpath = true;</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">info-&gt;valid_extensions = &quot;adf|fdi&quot;;</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">}</font></font></font></code>
 
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_get_system_av_info(struct retro_system_av_info *info) {</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">info-&gt;geometry.base_width = 640;</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">info-&gt;geometry.base_height = 480;</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">info-&gt;geometry.max_width = 1280;</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">info-&gt;geometry.max_height = 1024;</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">info-&gt;timing.fps = 50.0;  // PAL timing</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">info-&gt;timing.sample_rate = 44100.0;</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">}</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_get_system_av_info(struct retro_system_av_info *info) {</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">info-&gt;geometry.base_width = 640;</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">info-&gt;geometry.base_height = 480;</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">info-&gt;geometry.max_width = 1280;</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">info-&gt;geometry.max_height = 1024;</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">info-&gt;timing.fps = 50.0;  // PAL timing</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">info-&gt;timing.sample_rate = 44100.0;</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">}</font></font></font></code>
 
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">bool retro_load_game(const struct retro_game_info *info) {</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">if (!info || !info-&gt;path) return false;</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">loaddisc(0, info-&gt;path);</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">return true;</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">}</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">bool retro_load_game(const struct retro_game_info *info) {</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">if (!info || !info-&gt;path) return false;</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">loaddisc(0, info-&gt;path);</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">return true;</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">}</font></font></font></code>
 
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_unload_game(void) {}</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_unload_game(void) {}</font></font></font></code>
 
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_run(void) {</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">input_poll_cb();</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">update_input();</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">execarm(2000000 / 50);  // ~1 frame at 2MHz CPU</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">video_cb(vidc_buffer, 640, 480, 640 * sizeof(uint32_t));</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">audio_cb(sound_buffer, sound_samples);  // Adjust sample_count as needed</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">}</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void retro_run(void) {</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">input_poll_cb();</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">update_input();</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">execarm(2000000 / 50);  // ~1 frame at 2MHz CPU</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">video_cb(vidc_buffer, 640, 480, 640 * sizeof(uint32_t));</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">audio_cb(sound_buffer, sound_samples);  // Adjust sample_count as needed</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">}</font></font></font></code>
 
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">static void update_input(void) {</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">int16_t up = input_state_cb(0, RETRO_DEVICE_KEYBOARD, 0, RETROK_UP);</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">key[KEY_UP] = up ? 1 : 0;</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">// Add more mappings as needed (e.g., RETROK_DOWN, RETRO_DEVICE_JOYSTICK)</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">}</font></font></font></code></pre>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">static void update_input(void) {</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">int16_t up = input_state_cb(0, RETRO_DEVICE_KEYBOARD, 0, RETROK_UP);</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">key[KEY_UP] = up ? 1 : 0;</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">// Add more mappings as needed (e.g., RETROK_DOWN, RETRO_DEVICE_JOYSTICK)</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">}</font></font></font></code></pre>
 	<ul>
 		<li><p style="margin-bottom: 0in"><font color="#000000"><font face="TwitterChirp, System">This
 		sets up basic Libretro hooks, calling Arculator’s existing
@@ -196,14 +196,14 @@ SDL with Libretro callbacks and adapt the build.</font></p>
 	</ul>
 </ol>
 <ul>
-	<li><pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">uint32_t *vidc_buffer;  // Define globally</font></font></font></code></pre></li>
+	<li><pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">uint32_t *vidc_buffer;  // Define globally</font></font></font></code></pre></li>
 </ul>
-<pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void initvideo(void) {</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">vidc_buffer = malloc(640 * 480 * sizeof(uint32_t));</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">}</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void endvid(void) {</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">free(vidc_buffer);</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">}</font></font></font></code></pre>
+<pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void initvideo(void) {</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">vidc_buffer = malloc(640 * 480 * sizeof(uint32_t));</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">}</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void endvid(void) {</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">free(vidc_buffer);</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">}</font></font></font></code></pre>
 <ul>
 	<li><p><font color="#000000"><font face="TwitterChirp, System">Remove
 	SDL_CreateWindow, SDL_CreateRenderer, etc.</font></font></p></li>
@@ -215,11 +215,11 @@ SDL with Libretro callbacks and adapt the build.</font></p>
 <p><font color="#000000">c</font></p>
 <ol>
 	<ul>
-		<li><pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">int16_t *sound_buffer;  // Define globally</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">int sound_samples = 882;  // 44100 / 50, adjust as needed</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void initsound(void) {</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">sound_buffer = malloc(sound_samples * sizeof(int16_t));</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">}</font></font></font></code></pre>
+		<li><pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">int16_t *sound_buffer;  // Define globally</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">int sound_samples = 882;  // 44100 / 50, adjust as needed</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">void initsound(void) {</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">sound_buffer = malloc(sound_samples * sizeof(int16_t));</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">}</font></font></font></code></pre>
 		<ul>
 			<li><p style="margin-bottom: 0in"><font color="#000000"><font face="TwitterChirp, System">Remove
 			SDL audio calls.</font></font></p></li>
@@ -237,22 +237,22 @@ the Build System</font></p>
 <p style="margin-bottom: 0in"><font color="#000000">Edit Makefile in
 arculator/:</font></p>
 <p><font color="#000000">makefile</font></p>
-<pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">CC = gcc</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">CFLAGS = -fPIC -O2 -Wall -Iinclude</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">LDFLAGS = -shared</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">OBJS = arculator.o arm.o video.o sound.o keyboard.o mouse.o disc.o libretro.o</font></font></font></code>
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">TARGET = arculator_libretro.so</font></font></font></code>
+<pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">CC = gcc</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">CFLAGS = -fPIC -O2 -Wall -Iinclude</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">LDFLAGS = -shared</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">OBJS = arculator.o arm.o video.o sound.o keyboard.o mouse.o disc.o libretro.o</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">TARGET = arculator_libretro.so</font></font></font></code>
 
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">all: $(TARGET)</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">all: $(TARGET)</font></font></font></code>
 
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">$(TARGET): $(OBJS)</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">$(CC) $(LDFLAGS) -o $@ $(OBJS)</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">$(TARGET): $(OBJS)</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">$(CC) $(LDFLAGS) -o $@ $(OBJS)</font></font></font></code>
 
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">%.o: %.c</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">$(CC) $(CFLAGS) -c $&lt; -o $@</font></font></font></code>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">%.o: %.c</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">$(CC) $(CFLAGS) -c $&lt; -o $@</font></font></font></code>
 
-<code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">clean:</font></font></font></code>
-<code class="western"><font color="#000000">    </font></code><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">rm -f *.o $(TARGET)</font></font></font></code></pre>
+<code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">clean:</font></font></font></code>
+<code class="western"><font color="#F0FF0F">    </font></code><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">rm -f *.o $(TARGET)</font></font></font></code></pre>
 <ul>
 	<li><p style="margin-bottom: 0in"><font color="#000000"><font face="TwitterChirp, System">-fPIC:
 	Position-independent code for shared libraries.</font></font></p></li>
@@ -268,7 +268,7 @@ arculator/:</font></p>
 	<p style="margin-bottom: 0in"><font color="#000000"><font face="TwitterChirp, System">bash</font></font></p></li>
 </ol>
 <ul>
-	<li><pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">make</font></font></font></code></pre></li>
+	<li><pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">make</font></font></font></code></pre></li>
 </ul>
 <ul>
 	<li><p style="margin-bottom: 0in"><font color="#000000">Copy to
@@ -276,7 +276,7 @@ arculator/:</font></p>
 </ul>
 <p style="margin-bottom: 0in"><font color="#000000">bash</font></p>
 <ul>
-	<li><pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">cp arculator_libretro.so ~/.config/retroarch/cores/</font></font></font></code></pre></li>
+	<li><pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">cp arculator_libretro.so ~/.config/retroarch/cores/</font></font></font></code></pre></li>
 </ul>
 <ul>
 	<li><p style="margin-bottom: 0in"><font color="#000000">Test in
@@ -284,7 +284,7 @@ arculator/:</font></p>
 </ul>
 <p><font color="#000000">bash</font></p>
 <ol>
-	<li value="3"><pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#000000"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">retroarch -L ~/.config/retroarch/cores/arculator_libretro.so path/to/game.adf</font></font></font></code></pre>
+	<li value="3"><pre class="western" style="line-height: 150%; text-align: left; border: none; padding: 0in; background: #202327"><code class="western"><font color="#F0FF0F"><font face="Menlo, Monaco, Consolas, Andale Mono, Ubuntu Mono, Courier New, monospace"><font size="2" style="font-size: 9pt">retroarch -L ~/.config/retroarch/cores/arculator_libretro.so path/to/game.adf</font></font></font></code></pre>
 	<ul>
 		<li><p style="margin-bottom: 0in"><font color="#000000"><font face="TwitterChirp, System">Load
 		the core via GUI if preferred: Main Menu &gt; Load Core &gt;
