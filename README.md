@@ -1,6 +1,7 @@
 # Tools
 Personal tools<BR />
 Consider everything here as WIP.<BR />
+Tools are for Linux and designed to run on MY computer.<BR />
 <BR />
 Do not use these. Never use these.<BR />
 Might work for you, probably not.<BR />
@@ -18,6 +19,7 @@ http://github.com/ZacGeurts<BR />
 <BR />
 This is not for a games database.<BR />
 This is for Retroarch thumbnail archival tools.<BR />
+Retroarch should be at or above version 1.19.<BR />
 <BR />
 shots.sh is the most interesting one and lets you use F8 to instant thumbnail.<BR />
 Turn off GPU screenshot so you do not capture any overlays like pause icon.<BR />
@@ -30,6 +32,3 @@ Scanning directory will use the internal DAT for release year etc.<BR />
 <BR />
 Change Retroarch default "User Interface - Appearance" from boxarts to title screens for the full showing.<BR />
 You can also specify thumbnail types on a per playlist basis.<BR />
-<BR />
-Tools are for Linux and designed to run on MY computer.<BR />
-Retroarch should be at or above version 1.19.<BR />
