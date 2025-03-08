@@ -40,7 +40,7 @@ backup_dir='/mnt/9dfc4c69-a0b6-4668-b905-131459450269/WIP'				# My SSD
 use_metadata=1
 # adds 1MB every 50,000 images at 20 characters
 meta_comment="By Zachary Geurts"
-meta_location="Michigan,USA"
+meta_location='https://github.com/ZacGeurts'
 # --------------------------------------------
 
 # Shortcut list to copy to system_dir
