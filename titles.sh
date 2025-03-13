@@ -115,6 +115,7 @@ meta_location='https://github.com/ZacGeurts'
 #'Quake'
 #'Quake II'
 #'Rick Dangerous'
+#'RPG Maker 2000_2003'
 #'ScummVM'
 #'Sega - 32X'
 #'Sega - Dreamcast'
@@ -153,6 +154,8 @@ meta_location='https://github.com/ZacGeurts'
 #'Wolfenstein 3D'
 
 # ----------Nothing to mess with below here-------
+YELLOW='\033[1;33m'
+NC='\033[0m' # No Color
 
 # clean up any remaining process when ctrl-c
 cleanup() {
@@ -171,7 +174,7 @@ echo Creates Retroarch thumbnails from screenshots.
 echo Awaits a new image in the screenshots folder 
 echo does stuff to move it to thumbnails.
 echo '---------------------------------------------'
-echo Configured currently for $system_dir
+echo -e Configured currently for ${YELLOW}$system_dir${NC}
 echo '---------------------------------------------'
 echo If this is not the correct system, ctrl-c and edit shots.sh
 echo ' '
@@ -215,8 +218,14 @@ while true; do
 		# Correct aspect ratio
 		if [ "$system_dir" = "Acorn - BBC Micro" ]; then
 			echo "$system_dir" detected. Resizing.
-			mogrify -resize 640!x512! -quality 95 "${dest_dir}/${is_titlepng}/${fname_new}"
-			mogrify -resize 384 -depth 4 -type optimize -alpha off -quality 95 "${dest_dir}/${is_titlepng}/${fname_new}"
+			mogrify -bordercolor black -fuzz 20% -trim -quality 95 "${dest_dir}/${is_titlepng}/${fname_new}"
+			mogrify -resize '640x^>' -gravity center -background black -extent 640^x256^ -quality 95 "${dest_dir}/${is_titlepng}/${fname_new}"			
+			mogrify -resize 512!x384! -depth 4 -type optimize -alpha off -quality 95 "${dest_dir}/${is_titlepng}/${fname_new}"
+		fi
+		if [ "$system_dir" = "Atari - Jaguar" ]; then
+			echo "$system_dir" detected. Resizing.
+			mogrify -bordercolor black -fuzz 20% -trim -quality 95 "${dest_dir}/${is_titlepng}/${fname_new}"
+			mogrify -resize 326!x250! -type optimize -alpha off -quality 95 "${dest_dir}/${is_titlepng}/${fname_new}"
 		fi
 		if [ "$system_dir" = "Amstrad - CPC" ] || [ "$system_dir" = "Uzebox" ] || [ "$system_dir" = "Amstrad - GX4000" ]; then
 			echo "$system_dir" detected. Resizing 100x200 percent.

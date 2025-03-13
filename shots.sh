@@ -26,17 +26,17 @@
 # AND GPU SS will capture notifications and pause icons etc.
 
 # CONFIGURE once then just update as needed the following line
-system_dir='Acorn - BBC Micro'
+system_dir='Commodore - CDTV'
 # See shortcuts below for correct folder names
 
 # ---- CONFIGURE these once if needed --------
-src_dir='/home/'"$USER"'/.config/retroarch/screenshots'			# Default
+src_dir='/home/'"$USER"'/.config/retroarch/screenshots'					# Default
 dest_dir='/home/'"$USER"'/.config/retroarch/thumbnails/'"${system_dir}"	# Default
 
 do_backup=1																# 0 = do not create backup duplicate
-backup_dir='/mnt/9dfc4c69-a0b6-4668-b905-131459450269/WIP'		# My SSD
+backup_dir='/mnt/9dfc4c69-a0b6-4668-b905-131459450269/WIP'				# My SSD
 # Existing thumbnails do not back up. They are overwritten.
-# Backup puts a copy of NEW thumbnails so you can upload them later
+# Backup puts a copy outside thumbnails so you can upload them later
 # So you do not lose them in the thumbnails pile
 # this can be disabled if you do not intend to upload later
 # or have no interest is seperating your shots from existing thumbnails
@@ -120,6 +120,7 @@ meta_location='https://github.com/ZacGeurts'
 #'Quake'
 #'Quake II'
 #'Rick Dangerous'
+#'RPG Maker 2000_2003'
 #'ScummVM'
 #'Sega - 32X'
 #'Sega - Dreamcast'
@@ -166,10 +167,10 @@ meta_location='https://github.com/ZacGeurts'
 # resize 512 will scale height as well, 512! leaves height alone, etc.
 # mogrify is imagemagik, convert works too, but whatever.
 # very powerful, check 'man mogrify' or web search some stuff.
-
+YELLOW='\033[1;33m'
+NC='\033[0m' # No Color
 echo '---------------------------------------------'
-echo Configured currently for
-echo $system_dir
+echo -e Configured currently for ${YELLOW}$system_dir${NC}
 echo ' '
 echo Screenshots configured for
 echo $src_dir
@@ -188,6 +189,7 @@ if [ "$use_metadata" = "1" ]; then
 	echo Location: $meta_location
 fi
 echo '---------------------------------------------'
+echo "AWAITING RESPONSE " $system_dir | osd_cat --pos=middle --align=center --colour=yellow --offset=10 --outlinecolour=black --outline=1 --delay=999999 --age=999999 --font=-misc-fixed-bold-r-normal--57-*-*-*-c-*-*-* &
 echo If anything is not correct press CTRL-C now and edit shots.sh
 echo ' '
 echo inotify scans recursive on screenshots folder
@@ -204,6 +206,7 @@ case $yn_var in
 	;;
 	* ) echo "Invalid response, Exiting!"; exit;
 esac
+killall -q osd_cat
 
 # cleanup function
 # clean up any remaining process when ctrl-c
@@ -234,7 +237,7 @@ echo You can use P to pause before snapping.
 echo ' '
 
 if [ "$NOT_GPU_SHOT" = "1" ]; then
-		echo "Title" | osd_cat --pos=top --align=left --colour=yellow --offset=10 --outlinecolour=black --outline=1 --delay=999999 --age=999999 --font=-misc-fixed-bold-r-normal--17-*-*-*-c-*-*-* &
+		echo "Title" | osd_cat --pos=top --align=left --colour=yellow --offset=10 --outlinecolour=black --outline=1 --delay=999999 --age=999999 --font=-misc-fixed-bold-r-normal--27-*-*-*-c-*-*-* &
 fi
 echo "---First image is a Title---"
 
@@ -264,8 +267,14 @@ while true; do
 		# --- # CORRECT ASPECT RATIO ---
 		if [ "$system_dir" = "Acorn - BBC Micro" ]; then
 			echo "$system_dir" detected. Resizing.
-			mogrify -resize 640!x512! -quality 95 "${dest_dir}/${is_titlepng}/${fname_new}"
-			mogrify -resize 384 -depth 4 -type optimize -alpha off -quality 95 "${dest_dir}/${is_titlepng}/${fname_new}"
+			mogrify -bordercolor black -fuzz 20% -trim -quality 95 "${dest_dir}/${is_titlepng}/${fname_new}"
+			mogrify -resize '640x^>' -gravity center -background black -extent 640^x256^ -quality 95 "${dest_dir}/${is_titlepng}/${fname_new}"			
+			mogrify -resize 512!x384! -depth 4 -type optimize -alpha off -quality 95 "${dest_dir}/${is_titlepng}/${fname_new}"
+		fi
+		if [ "$system_dir" = "Atari - Jaguar" ]; then
+			echo "$system_dir" detected. Resizing.
+			mogrify -bordercolor black -fuzz 20% -trim -quality 95 "${dest_dir}/${is_titlepng}/${fname_new}"
+			mogrify -resize 326!x250! -type optimize -alpha off -quality 95 "${dest_dir}/${is_titlepng}/${fname_new}"
 		fi
 		if [ "$system_dir" = "Amstrad - CPC" ] || [ "$system_dir" = "Uzebox" ] || [ "$system_dir" = "Amstrad - GX4000" ]; then
 			echo "$system_dir" detected. Resizing 100x200 percent.
@@ -303,13 +312,13 @@ while true; do
 		if [ "$is_titlepng" = "Named_Snaps" ]; then
 			if [ $NOT_GPU_SHOT ]; then
 				killall -q osd_cat
-				echo "Title" | osd_cat --pos=top --align=left --colour=yellow --offset=10 --outlinecolour=black --outline=1 --delay=999999 --age=999999 --font=-misc-fixed-bold-r-normal--17-*-*-*-c-*-*-* &
+				echo "Title" | osd_cat --pos=top --align=left --colour=yellow --offset=10 --outlinecolour=black --outline=1 --delay=999999 --age=999999 --font=-misc-fixed-bold-r-normal--27-*-*-*-c-*-*-* &
 			fi
 			echo "---Next image is a Title---"
 		else
 			if [ "$NOT_GPU_SHOT" = "1" ]; then
 				killall -q osd_cat
-				echo "Action" | osd_cat --pos=top --align=left --colour=yellow --offset=10 --outlinecolour=black --outline=1 --delay=999999 --age=999999 --font=-misc-fixed-bold-r-normal--17-*-*-*-c-*-*-* &
+				echo "Action" | osd_cat --pos=top --align=left --colour=yellow --offset=10 --outlinecolour=black --outline=1 --delay=999999 --age=999999 --font=-misc-fixed-bold-r-normal--27-*-*-*-c-*-*-* &
 			fi
 			echo "---Next image is an Action---"
 		fi	
