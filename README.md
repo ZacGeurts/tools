@@ -9,7 +9,7 @@ Might work for you, probably not.<BR />
 Might eat your computer, probably not.<BR />
 If you can not read a script leave these alone.<BR />
 <BR />
-Fun with Grok 3.<BR />
+Fun with Grok 3 AI.<BR />
 The arculator github is far out of date get the latest one from<BR />
 https://b-em.bbcmicro.com/arculator/download.html<BR />
 or try ArcEm https://arcem.sourceforge.net/<BR />
