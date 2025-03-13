@@ -35,4 +35,6 @@ When adding ROMs, scan your directory first before manual scan.<BR />
 Scanning directory will use the internal DAT for release year etc.<BR />
 <BR />
 Change Retroarch default "User Interface - Appearance" from boxarts to title screens for the full showing.<BR />
-You can also specify thumbnail types on a per playlist basis.<BR />
+I like icon as boxarts instead of logos.<BR />
+Otherwise instead of changing User Interface you can configure on a per playlist basis.<BR />
+I use [theme](https://github.com/ZacGeurts/UI_Assets)<BR />
