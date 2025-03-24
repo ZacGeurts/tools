@@ -26,7 +26,7 @@
 # AND GPU SS will capture notifications and pause icons etc.
 
 # CONFIGURE once then just update as needed the following line
-system_dir='Commodore - CDTV'
+system_dir='DICE'
 # See shortcuts below for correct folder names
 
 # ---- CONFIGURE these once if needed --------
@@ -75,6 +75,7 @@ meta_location='https://github.com/ZacGeurts'
 #'Commodore - PET'
 #'Commodore - Plus-4'
 #'Commodore - VIC-20'
+#'DICE'
 #'Dinothawr'
 #'DOOM'
 #'DOS'
@@ -143,13 +144,14 @@ meta_location='https://github.com/ZacGeurts'
 #'Sony - PlayStation'
 #'Sony - PlayStation 2'
 #'Sony - PlayStation Portable (PSN)'
-#'Spectravideo - SVI-318 - SVI'
+#'Spectravideo - SVI-318 - SVI-328'
 #'The 3DO Company - 3DO'
 #'Thomson - MOTO'
 #'TIC-80'
 #'Tiger - Game.com'
 #'Tomb Raider'
 #'Uzebox'
+#'VaporSpec'
 #'Vircon32'
 #'VTech - CreatiVision'
 #'VTech - V.Smile'
