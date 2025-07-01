@@ -9,13 +9,6 @@ Might work for you, probably not.<BR />
 Might eat your computer, probably not.<BR />
 If you can not read a script leave these alone.<BR />
 <BR />
-Fun with Grok 3 AI.<BR />
-The arculator github is far out of date get the latest one from<BR />
-https://b-em.bbcmicro.com/arculator/download.html<BR />
-or try ArcEm https://arcem.sourceforge.net/<BR />
-<a href="https://zacgeurts.github.io/tools/Port%20libretro%20howto.html">Port to libretro core Howto</a><BR />
-<a href="https://zacgeurts.github.io/tools/Port%20libretro%20howto%202.html">Port to libretro core Howto 2</a><BR />
-<BR />
 By Zachary Geurts<BR />
 Michigan, USA<BR />
 I do not condone violence, piracy, or new Oxford commas.<BR />
